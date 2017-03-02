@@ -1,0 +1,76 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta name="description" content="Тестовое задание для компании Туту">
+    	<meta name="keywords" content="Задание" />
+    	<meta name="author" content="Lupaina Kristina">
+		<title>Тестовое задание</title>
+		<!--[if lt IE 9]> 
+ 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+		<![endif]-->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="l-wrapper">
+			<div class="row">
+				<p>Для выполнения задания я использовала Windows 7, Sublime Text 3 (Emmet), Chrome, Firefox, Opera, Internet Explorer, Photoshop. Тестировала во всех установленных на компьютер браузерах, проверяла десктопную версию, таблетку и мобильную верстку. Также существует большое количество сервисов, с помощью которых можно протестировать сайт.</p>
+			</div>
+			<h2 class="title-page">Сверстанный Rating</h2>
+			<div class="row clearfix">
+				<fieldset class="b-rating">
+					<input class="b-rating__input" type="radio" id="5" name="rating"><label class="b-rating__label" for="5">5</label>
+					<input class="b-rating__input" type="radio" id="4" name="rating"><label class="b-rating__label" for="4">4</label>
+					<input class="b-rating__input" type="radio" id="3" name="rating"><label class="b-rating__label" for="3">3</label>
+					<input class="b-rating__input" type="radio" id="2" name="rating"><label class="b-rating__label" for="2">2</label>
+					<input class="b-rating__input" type="radio" id="1" name="rating"><label class="b-rating__label" for="1">1</label>
+				</fieldset>
+			</div>
+			<h2 class="title-page">Сверстанный прогресс-бар</h2>
+			<div class="row">
+				<div class="b-progress">
+					<div class="b-progress__text">60%</div>
+					<div class="b-progress__value"></div>
+				</div>
+			</div>
+			<h2 class="title-page">Сверстанная Кнопка</h2>
+			<div class="row b-group">
+				<a href="#" class="b-group__button" title="Кнопка" role="button">Кнопка</a>
+				<button class="b-group__button" type="submit">Кнопка</button>
+				<input class="b-group__button" type="button" value="Кнопка">
+				<div class="b-group__button">Кнопка</div>
+			</div>
+			<div class="row b-group">
+				<a href="#" class="b-group__button b-group__button_small" title="Кнопка" role="button">Кнопка</a>
+				<button class="b-group__button" type="submit">Кнопка</button>
+				<input class="b-group__button b-group__button_big" type="button" value="Кнопка">
+			</div>
+			<h2 class="title-page">Blur-эффект</h2>
+			<div class="row">
+				<p>
+					Для создания эффекта blur на изображении можно воспользоваться SVG-фильтрами. SVG-фильтры посредством CSS поддерживаются большим числом браузеров.<br>
+
+					Либо воспользоваться фильтром CSS3. На данный момент технология CSS-фильтров поддерживается меньшим количеством браузеров, чем SVG-фильтры.<br>
+					<pre>
+						-webkit-filter: blur(5px);
+					    -moz-filter: blur(5px);
+					    filter: blur(5px);
+				    </pre>
+					Фильтры очень легко использовать и изменять, чем статические изображения. Но большой минус их в том, что не во всех браузерах они работают. Поэтому всегда нужно продумывать резервные варианты на тот случай, когда браузер не сможет поддерживать фильтры.<br>
+
+					Если бы речь шла о поддержке эффекта в браузерах в ближайшем будущем, то я бы выбрала CSS-фильтры.
+				</p>
+				
+			</div>
+		</div>
+
+		
+
+
+
+		
+	</body>
+</html>

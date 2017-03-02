@@ -1,0 +1,186 @@
+<!Doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta name="description" content="Тестовое задание для компании Туту">
+    	<meta name="keywords" content="Задание" />
+    	<meta name="author" content="Lupaina Kristina">
+		<title>Тестовое задание</title>
+		<!--[if lt IE 9]> 
+ 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+		<![endif]-->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/mobile.css">
+		<link href="css/font-awesome.min.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="l-wrapper">
+			<aside class="l-sidebar">
+				<p class="margin-bottom"><i class="ic-snowflake"></i>TutuRu - крупнейший сервис поиска, бронирования и покупки авиабилетов и ж/д билетов.</p>
+				<p>Наша цель проста - делать наших клиентов счастливыми, а их путешествия незабываемыми. Любое путешествие начинается с поиска подходящих билетов и бронирования гостиниц. А мы делаем это качественно, обеспечивая самую лучшую поддержку благодаря собственному контакт-центру.</p>
+			</aside>
+			<div class="l-container">
+				<header class="l-header margin-bottom">
+					<nav class="b-navigation">
+						<ul class="b-navigation__list">
+							<li class="b-navigation__item"><a class="b-navigation__link b-navigation__link_color_violet" href="#">Личный кабинет</a></li>
+							<li class="b-navigation__item"><a class="b-navigation__link b-navigation__link_color_green" href="#">Раздел 1</a></li>
+							<li class="b-navigation__item"><a class="b-navigation__link b-navigation__link_color_blue" href="#">Раздел 2</a></li>
+							<li class="b-navigation__item"><a class="b-navigation__link b-navigation__link_color_red" href="#">Раздел 3</a></li>
+							<li class="b-navigation__item"><a class="b-navigation__link b-navigation__link_color_black" href="#">Раздел 4</a></li>
+							<li class="b-navigation__item"><a class="b-navigation__link b-navigation__link_color_darkred" href="#">Раздел 5</a></li>
+						</ul>
+					</nav>
+				</header>
+				<main class="l-content">
+					<section class="b-infoForm">
+						<div class="row clearfix">
+							<h1 class="b-infoForm__title">Заполните форму</h1>
+							<ul class="b-navstep">
+								<li class="b-navstep__item b-navstep__item_status_prev">1</li>
+								<li class="b-navstep__item b-navstep__item_status_prev">2</li>
+								<li class="b-navstep__item b-navstep__item_status_active">3</li>
+								<li class="b-navstep__item">4</li>
+								<li class="b-navstep__item">5</li>
+							</ul>
+						</div>
+						<div class="row">
+							<p class="b-infoForm__text">Общая информация</p>
+						</div>
+						<form action="http://www.tutu.ru/" class="b-form" method="get" name="personal-information" target="_blank">
+							<div class="row clearfix">
+								<div class="b-form__column">
+									<label class="b-form__label" for="last-name">Фамилия</label>
+									<input id="last-name" type="text" name="last-name">
+								</div>
+								<div class="b-form__column">
+									<label class="b-form__label" for="first-name">Имя</label>
+									<input id="first-name" type="text" name="first-name">
+								</div>
+								<div class="b-form__column b-form__column-patronymic">
+									<label class="b-form__label" for="patronymic">Отчество</label>
+									<input id="patronymic" type="text" name="patronymic">
+								</div>
+							</div>
+							<div class="row clearfix">
+								<div class="b-form__column b-form__column-radio">
+									<label class="b-form__label">Меняли фамилию?</label>
+									<input id="yes" type="radio" name="change-familly" value="Да"><label class="b-form__radio-label" for="yes">Да</label>
+									<input id="no" type="radio" name="change-familly" value="Нет"><label class="b-form__radio-label" for="no">Нет</label>
+								</div>
+								<div class="b-form__column b-form__column-radio">
+									<label class="b-form__label">Пол</label>
+									<input id="sex-man" type="radio" name="sex" value="Муж"><label class="b-form__radio-label" for="sex-man">Муж</label>
+									<input id="sex-female" type="radio" name="sex" value="Жен"><label class="b-form__radio-label" for="sex-female">Жен</label>
+								</div>
+								<div class="b-form__column b-form__column-status">
+									<label class="b-form__label" for="status">Семейное положение</label>
+									<div class="b-select">
+										<select class="b-select__item" id="status">
+											<option value="Женат/Замужем">Женат / Замужем</option>
+											<option value="Не женат/не замужем">Не женат / Не замужем</option>
+										</select>
+										<div class="b-arrow">
+											<div class="b-arrow__block-inner">
+												<span class="b-arrow__item"></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row clearfix">
+								<div class="b-form__column b-form__column-nationality">
+									<label class="b-form__label" for="nationality">Гражданство</label>
+									<div class="b-select">
+										<select class="b-select__item" id="nationality">
+											<option value="Российская Федерация">Российская Федерация</option>
+										</select>
+										<div class="b-arrow">
+											<div class="b-arrow__block-inner">
+												<span class="b-arrow__item"></span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="b-form__column clearfix b-form__column-dateBirth">
+									<label class="b-form__label" for="day">Дата рождения</label>
+									<div class="b-select b-select-day">
+										<select class="b-select__item" id="day">
+											<option value="1">01</option>
+											<option value="2">02</option>
+											<option value="3">03</option>
+											<option value="4">04</option>
+											<option value="5">05</option>
+											<option value="6">06</option>
+											<option value="7">07</option>
+											<option value="8">08</option>
+											<option value="9">09</option>
+											<option value="10">10</option>
+											<option value="11">11</option>
+											<option value="12">12</option>
+										</select>
+										<div class="b-arrow">
+											<div class="b-arrow__block-inner">
+												<span class="b-arrow__item"></span>
+											</div>
+										</div>
+									</div>
+									<div class="b-select b-select-month">
+										<select class="b-select__item" id="month">
+											<option value="Январь">Январь</option>
+											<option value="Февраль">Февраль</option>
+											<option value="Март">Март</option>
+											<option value="Апрель">Апрель</option>
+											<option value="Май">Май</option>
+											<option value="Июнь">Июнь</option>
+											<option value="Июль">Июль</option>
+											<option value="Август">Август</option>
+											<option value="Сентябрь">Сентябрь</option>
+											<option value="Октябрь">Октябрь</option>
+											<option value="Ноябрь">Ноябрь</option>
+											<option value="Декабрь">Декабрь</option>
+										</select>
+										<div class="b-arrow">
+											<div class="b-arrow__block-inner">
+												<span class="b-arrow__item"></span>
+											</div>
+										</div>
+									</div>
+									<div class="b-select b-select-year">
+										<select class="b-select__item" id="year">
+											<option value="1991">1991</option>
+											<option value="1992">1992</option>
+										</select>
+										<div class="b-arrow">
+											<div class="b-arrow__block-inner">
+												<span class="b-arrow__item"></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row clearfix">
+								<div class="b-form__column-placeBirth">
+									<label class="b-form__label" for="place-birth">Место рождения</label>
+									<input id="place-birth" type="text">
+									<span class="b-form__text-placeBirth">Например, Россия, Комсомольск-на-Амуре</span>
+								</div>
+							</div>
+							<div class="row b-form__column-button clearfix">
+								<button type="button" class="b-form__btn b-form__btn_back"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Назад</button>
+								<button type="submit" class="b-form__btn b-form__btn_next">Далее<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+							</div>
+						</form>
+					</section>
+				</main>
+			</div>
+		</div>
+		
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/script.js"></script>
+		
+	</body>
+</html>

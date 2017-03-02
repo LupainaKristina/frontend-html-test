@@ -1,0 +1,154 @@
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+
+	.l-wrapper { width: 970px; }
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+
+	.l-wrapper { width: 750px; }
+
+	.l-sidebar {
+		position: relative;
+		padding-top: 20px;
+		width: 100%;
+	}
+
+	.l-container {
+		margin-left: 0;
+		padding-top: 25px;
+	}
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 480px) {
+
+	.l-wrapper { width: 100%; }
+
+	.l-sidebar {
+		position: relative;
+		padding-top: 20px;
+		width: 100%;
+	}
+
+	.l-container {
+		margin-left: 0;
+		padding-top: 25px;
+	}
+
+}
+
+@media screen and (max-width: 725px) { 
+
+	.b-infoForm__title { margin-bottom: 20px; }
+
+	.b-navstep {
+		float: none;
+		text-align: center;
+	}
+
+	.b-infoForm__text:after { width: 80%; }
+
+}
+
+@media screen and (max-width: 670px) { 
+
+	.b-navigation__item { margin-right: 15px; }
+
+	.b-infoForm__text:after { width: 80%; }
+
+	.b-form__column-nationality { width: 33%; }
+
+ 	.b-select-day { width: 22%; }
+
+	.b-select-month { width: 33%; }
+
+	.b-form__column-dateBirth .b-select-year { width: 27%; } 
+}
+
+@media screen and (max-width: 670px) { 
+	
+	.b-infoForm__text:after { width: 78%; }
+
+}
+
+@media screen and (max-width: 560px) { 
+
+	.b-navigation__item { margin-right: 10px; }
+
+	.b-navstep__item { width: 84px; }
+
+	.b-infoForm__text:after { width: 75%; }
+
+	.b-form__column-radio > .b-form__label,
+	.b-form__column-status > .b-form__label { min-height: 40px; }
+
+	.b-form__column-nationality { width: 40%; }
+
+	.b-form__column-dateBirth { width: 50%; }
+
+	.b-select-day { width: 25%; }
+
+	.b-select-month { width: 38%; }
+
+	.b-form__column-dateBirth .b-select-year { width: 30%; }
+
+
+} 
+
+@media screen and (max-width: 479px) {
+
+	.l-wrapper { width: 100%; }
+
+	.l-sidebar {
+		position: relative;
+		padding-top: 20px;
+		width: 100%;
+	}
+
+	.l-container {
+		margin-left: 0;
+		padding-top: 25px;
+	}
+
+	.b-navstep__item { width: 50px; }
+
+	.row { margin-bottom: 15px; }
+
+	.b-infoForm__text:after { width: 70%; }
+
+	.b-form__column {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+
+	.b-form__column:last-child { margin-bottom: 0; }
+
+	.b-form__column-radio > .b-form__label,
+	.b-form__column-status > .b-form__label { min-height: auto; }
+
+	.b-select-day { width: 17%; }
+
+	.b-select-month { width: 25%; }
+
+	.b-form__column-dateBirth .b-select-year { width: 20%; }
+
+	.b-form__btn {
+		padding: 0 20px;
+		height: 30px;
+	}
+
+}
+
+@media screen and (max-width: 420px) {
+
+	.b-infoForm__text:after { width: 63%; }
+
+}
+
+@media screen and (max-width: 350px) {
+
+	.b-infoForm__text:after { width: 58%; }
+
+}
